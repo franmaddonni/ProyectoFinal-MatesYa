@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatesYa | Contacto</title>
+    <!-- ANIMACIONES -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Tipografias -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <Header class="header">
+        <ul class="header__ul">
+            <li class="header__li"><a href="../pages/productos.html">Productos</a></li>
+            <li class="header__li"><a href="../pages/nosotros.html">Nosotros</a></li>
+            <li class="header__li"><a href="../index.html"><img class="header__img  animate__animated animate__bounce" src="../img/ISOTIPO.png" alt=""></a></li>
+            <li class="header__li"><a href="../pages/mayorista.html">Mayorista</a> </li>
+            <li class="header__li"><a href="#">Contacto</a></li>
+
+        </ul>
+    </Header>
+<!-- Comienza MAIN -->
+    <div class="maincontacto__title animate__animated animate__headShake">
+        <h1 class="maincontacto__h1">Contacto.</h1>
+    </div>
+    
+    <main class="maincontacto">
+        <div class="formsection">
+            <form class="form" action="procesar.php" method="post">
+
+                <fieldset class="form__fieldset">
+                    <p>
+                        <label class="form__label" for="nombre"> Nombre: </label>
+                        <input class="form__input" type="text" name="nombre" placeholder="Ingrese su nombre">
+                    </p>
+            
+                    <p>
+                        <label class="form__label" for="apellidos"> Apellido:</label>
+                        <input class="form__input" type="text" name="Apellido" placeholder="Ingrese su apellido">
+                    </p>
+                
+                    <p>
+                        <label class="form__label" for="email"> Email::</label>
+                        <input class="form__input" type="email" name="email"  placeholder="Ingrese su Email">
+                    </p>
+
+                    <p>
+                        <textarea class="form__input" name="cometario" id="" cols="50" rows="8" placeholder="Dejanos tus comentarios"></textarea>
+                    </p> <!--No se si colocarle la class label o una nueva especifica para el textarea-->
+
+                    <div>
+                        <input class="form__button" type="reset" value="Borrar">
+                        <input class="form__button" type="submit" value="Enviar">
+                    </div>   
+
+                </fieldset>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>Todos los derechos reservados <a href="https://franmaddonni.myportfolio.com/" target="blank">Francesco Maddonni</a></p>
+
+    </footer>
+
+    
+</body>
+</html>
