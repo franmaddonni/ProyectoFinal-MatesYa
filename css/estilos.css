@@ -214,11 +214,19 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr); }
   .mainnosotros .mainnosotros__title {
-    margin-left: 30px;
     grid-row: 1/2;
-    grid-column: 1/2;
-    align-self: end; }
+    grid-column: 1/2; }
     .mainnosotros .mainnosotros__title .mainnosotros__h1 {
+      justify-self: center;
+      grid-column: 1/2;
+      grid-row: 1/2;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin-top: 70px;
+      margin-left: 20px;
+      font-size: 9vh;
+      color: black;
+      margin-bottom: 33px;
       font-size: 9vh; }
 
 .mainnosotros__section1 {
@@ -260,12 +268,19 @@ body {
     height: 300px; }
 
 .mainmayorista__title {
-  margin-top: 70px;
-  grid-column: 1/2;
   grid-row: 1/2;
-  align-self: center;
-  font-size: 4vh;
-  margin-left: 30px; }
+  grid-column: 1/2; }
+  .mainmayorista__title .mainmayorista__h1 {
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 9vh;
+    color: black;
+    margin-bottom: 33px; }
 
 .mainmayorista {
   height: 900px;
@@ -304,12 +319,19 @@ body {
           transition: 0.3s; }
 
 .mainproductos__title {
-  margin-top: 70px;
-  align-self: center;
-  font-size: 4vh;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  margin-left: 30px; }
+  grid-row: 1/2;
+  grid-column: 1/2; }
+  .mainproductos__title .mainproductos__h1 {
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 9vh;
+    color: black;
+    margin-bottom: 33px; }
 
 .mainproductos {
   margin-bottom: 150px;
@@ -349,10 +371,19 @@ body {
           transition: 0.3s; }
 
 .maincontacto__title {
-  margin-top: 40px;
-  margin-left: 30px; }
+  grid-row: 1/2;
+  grid-column: 1/2; }
   .maincontacto__title .maincontacto__h1 {
-    font-size: 8vh; }
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 9vh;
+    color: black;
+    margin-bottom: 33px; }
 
 .maincontacto {
   margin-top: 30px;

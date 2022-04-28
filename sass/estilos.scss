@@ -62,19 +62,10 @@ body{
     grid-template-rows: repeat(3,1fr);
     margin-bottom: 200px;
     .mainindex__title{
-        grid-row: 1/2;
-        grid-column: 1/2;
+        @include titulo;
+    
         .mainindex__h1{
-            justify-self: center;
-            grid-column: 1/2;
-            grid-row: 1/2;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
-            margin-top: 70px;
-            margin-left: 20px;
-            font-size: $titles;
-            color:black;
-            margin-bottom: 33px;
+            @include h1;
         }    
     }
     .mainindex__section1{
@@ -272,12 +263,10 @@ body{
     grid-template-rows: repeat(4,1fr);
 
     .mainnosotros__title{
-        margin-left: 30px;
-        grid-row: 1/2;
-        grid-column: 1/2;
-        align-self: end;
+        @include titulo;
 
         .mainnosotros__h1{
+            @include h1;
             font-size: $titles;
         }
     }
@@ -335,12 +324,11 @@ body{
 //mayorista nesting
 
 .mainmayorista__title{
-    margin-top: 70px;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    align-self: center;
-    font-size: 4vh;
-    margin-left: 30px;
+    @include titulo;
+
+    .mainmayorista__h1{
+        @include h1;
+    }
 }
 
 .mainmayorista{
@@ -393,12 +381,11 @@ body{
 //products nesting
 
     .mainproductos__title{
-        margin-top: 70px;
-        align-self: center;
-        font-size: 4vh;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
-        margin-left: 30px;
+        @include titulo;
+
+        .mainproductos__h1{
+            @include h1;
+        }
     }
 
     .mainproductos{
@@ -452,11 +439,10 @@ body{
     // contacto nesting
 
     .maincontacto__title{
-        margin-top: 40px;
-        margin-left: 30px;
+        @include titulo;
 
         .maincontacto__h1{
-            font-size: 8vh;
+            @include h1;
         }
     }
 
