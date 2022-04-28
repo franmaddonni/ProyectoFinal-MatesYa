@@ -1,1 +1,12 @@
-$color-principal: #537334
+$color-principal: #537334;
+
+$sizes-map:(
+    title:9vh,
+    subtitile:25px,
+    text:16px,
+);
+
+
+$titles:map-get($sizes-map, title);
+$subtitles:map-get($sizes-map, subtitile);
+$text:map-get($sizes-map, text)
