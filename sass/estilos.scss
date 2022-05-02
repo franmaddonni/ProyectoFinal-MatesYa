@@ -6,8 +6,7 @@
 
 @import "utilities/variables";
 @import "utilities/mixins";
-@import "utilities/maps"; 
-
+@import "utilities/maps";
 
 //index nesting
 
@@ -187,7 +186,7 @@ body{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
 
-    .mainnosotros__buttonmayorista{
+    a{
         grid-column: 2/3;
         grid-row: 3/4;
         align-self: center;
@@ -360,7 +359,10 @@ body{
             }
 
             .mainmayorista__button{
-                @extend .mainnosotros__buttonmayorista;
+                width: 100px;
+                padding: 5px 10px;
+                background-color: #537334;
+                color: white;
                 text-align: center;
                 font-size: 14px;
                 border-radius: 5px;

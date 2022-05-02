@@ -152,7 +152,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr); }
-  .mainnosotros__addcontainer .mainnosotros__buttonmayorista, .mainnosotros__addcontainer .mainmayorista .mainmayorista__catalogo .mainmayorista__producto .mainmayorista__button, .mainmayorista .mainmayorista__catalogo .mainmayorista__producto .mainnosotros__addcontainer .mainmayorista__button {
+  .mainnosotros__addcontainer a {
     grid-column: 2/3;
     grid-row: 3/4;
     align-self: center;
@@ -162,7 +162,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     color: white; }
-    .mainnosotros__addcontainer .mainnosotros__buttonmayorista a:hover, .mainnosotros__addcontainer .mainmayorista .mainmayorista__catalogo .mainmayorista__producto .mainmayorista__button a:hover, .mainmayorista .mainmayorista__catalogo .mainmayorista__producto .mainnosotros__addcontainer .mainmayorista__button a:hover {
+    .mainnosotros__addcontainer a a:hover {
       color: #537334;
       background-color: white;
       transition: .3s; }
@@ -304,6 +304,10 @@ body {
         width: 260px;
         height: 260px; }
       .mainmayorista .mainmayorista__catalogo .mainmayorista__producto .mainmayorista__button {
+        width: 100px;
+        padding: 5px 10px;
+        background-color: #537334;
+        color: white;
         text-align: center;
         font-size: 14px;
         border-radius: 5px;
