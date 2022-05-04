@@ -295,8 +295,8 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap; }
     .mainmayorista .mainmayorista__catalogo .mainmayorista__producto {
-      margin-right: 100px;
-      margin-left: 100px;
+      margin-right: 50px;
+      margin-left: 50px;
       display: flex;
       flex-direction: column;
       align-items: center; }
@@ -347,8 +347,8 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap; }
     .mainproductos .mainproductos__catalogo .mainproductos__producto {
-      margin-right: 100px;
-      margin-left: 100px;
+      margin-right: 50px;
+      margin-left: 50px;
       display: flex;
       flex-direction: column;
       align-items: center; }
@@ -635,7 +635,7 @@ body {
       align-self: end;
       grid-area: contenido;
       text-align: center;
-      font-size: 2vh; }
+      font-size: 1.3vh; }
       .footer p a {
         color: #537334; }
   .mainnosotros {
