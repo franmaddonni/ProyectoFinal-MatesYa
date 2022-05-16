@@ -417,6 +417,7 @@ body {
   .maincontacto .form__fieldset .form__input {
     border: darkgrey 2px solid;
     margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     padding: 5px 10px; }
@@ -429,21 +430,22 @@ body {
       font-family: 'Montserrat', sans-serif; }
     .maincontacto .form__fieldset .form__input .form__label {
       display: none; }
-    .maincontacto .form__fieldset .form__input .form__button {
-      background-color: #537334;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      width: 60px;
-      height: 30px;
-      margin-top: 10px;
-      margin-right: 10px; }
-      .maincontacto .form__fieldset .form__input .form__button .form__button:hover {
-        background-color: white;
-        color: #537334;
-        transform: scale(1.1);
-        transition: .3s;
-        cursor: pointer; }
+
+.maincontacto .form__button {
+  background-color: #537334;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px; }
+  .maincontacto .form__button .form__button:hover {
+    background-color: white;
+    color: #537334;
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer; }
 
 @media screen and (max-width: 460px) {
   body {
