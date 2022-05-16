@@ -1,8 +1,11 @@
 // media queries 
     //media mobile 1 index
 
-@media screen and (max-width:360px){
+@media screen and (max-width:460px){
 
+    body{
+        width: 100%;
+    }
     
     .header{
         width: 100%;
@@ -627,4 +630,6 @@
 
 
 }
+
+
 
