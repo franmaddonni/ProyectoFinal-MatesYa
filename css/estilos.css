@@ -369,7 +369,8 @@ body {
         font-size: 15px;
         border-radius: 5px;
         justify-self: center;
-        margin: auto; }
+        margin: auto;
+        border: none; }
         .mainproductos .row .card .card-body .btn-primary:hover {
           color: #537334;
           background-color: #EBE2C5;
@@ -891,7 +892,8 @@ body {
           font-size: 15px;
           border-radius: 5px;
           justify-self: center;
-          margin: auto; }
+          margin: auto;
+          border: none; }
           .mainproductos .row .card .btn-primary:hover {
             color: #537334;
             background-color: #EBE2C5;
@@ -1383,7 +1385,8 @@ body {
           font-size: 15px;
           border-radius: 5px;
           justify-self: center;
-          margin: auto; }
+          margin: auto;
+          border: none; }
           .mainproductos .row .card .btn-primary:hover {
             color: #537334;
             background-color: #EBE2C5;
@@ -1817,7 +1820,8 @@ body {
           font-size: 15px;
           border-radius: 5px;
           justify-self: center;
-          margin: auto; }
+          margin: auto;
+          border: none; }
           .mainproductos .row .card .card-body .btn-primary:hover {
             color: #537334;
             background-color: #EBE2C5;
