@@ -12,6 +12,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- LINK BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- Tipografias -->
@@ -19,70 +21,92 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- HEADER -->
+
+<!-- HEADER -->
     <Header class="header">
         <ul class="header__ul">
             <li class="header__li"><a href="#">Productos</a></li>
             <li class="header__li"><a href="../pages/nosotros.html">Nosotros</a></li>
             <li class="header__li"><a href="../index.html"><img class="header__img  animate__animated animate__bounce" src="../img/ISOTIPO.png" alt=""></a></li>
-            <li class="header__li"><a href="../pages/mayorista.html">Mayorista</a> </li>
+            <li class="header__li"><a href="../pages/yerba.html">Yerba</a> </li>
             <li class="header__li"><a href="../pages/contacto.html">Contacto</a></li>
 
         </ul>
     </Header>
 
+<!-- MAIN -->
     <main class="mainproductos">
         <div class="mainproductos__title">
             <h1 class="mainproductos__h1 animate__animated animate__headShake">Productos.</h1>
         </div>
         
-        <section class="mainproductos__catalogo">
-            <div class="mainproductos__producto">
-                <img src="../img/mate imperial.png" alt="" class="mainproductos__img">
-                <a href="" class="mainproductos__button">Comprar</a>
+        <section class="row">
+
+            <div class="card col-2" style="width: 16rem;">
+                <img src="../img/mate imperial.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> Mate Imperial </h2>
+                    <p class="card-text"> Mate uruguayo de calidad premium. </p>
+                    <a href="#" class="btn btn-primary"> Comprar </a>
+                </div>
             </div>
-            <div class="mainproductos__producto">
-                <img src="../img/mate imperial.png" alt="" class="mainproductos__img">
-                <a href="" class="mainproductos__button">Comprar</a>
+
+            <div class="card col-2" style="width: 16rem;">
+                <img src="../img/mate perita.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> Mate Perita </h2>
+                    <p class="card-text"> Mate perita de madera, tallado a mano. </p>
+                    <a href="#" class="btn btn-primary"> Comprar </a>
+                </div>
             </div>
-            <div class="mainproductos__producto">
-                <img src="../img/mate imperial.png" alt="" class="mainproductos__img">
-                <a href="" class="mainproductos__button">Comprar</a>
+
+            <div class="card col-2" style="width: 16rem;">
+                <img src="../img/mate hexa.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> Mate Hexa </h2>
+                    <p class="card-text"> Mate hexagonal de madera, tallado a mano. </p>
+                    <a href="#" class="btn btn-primary"> Comprar </a>
+                </div>
             </div>
-            <div class="mainproductos__producto">
-                <img src="../img/mate hexa.png" alt="" class="mainproductos__img">
-                <a href="" class="mainproductos__button">Comprar</a>
+
+            <div class="card col-2" style="width: 16rem;">
+                <img src="../img/mate imperial.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> Mate Imperial </h2>
+                    <p class="card-text"> Mate Uruguayo de calidad premium. </p>
+                    <a href="#" class="btn btn-primary"> Comprar </a>
+                </div>
             </div>
-            <div class="mainproductos__producto">
-                <img src="../img/mate perita.png" alt="" class="mainproductos__img">
-                <a href="" class="mainproductos__button">Comprar</a>
+
+            <div class="card col-2" style="width: 16rem;">
+                <img src="../img/mate perita.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> Mate Perita </h2>
+                    <p class="card-text"> Mate perita de madera, tallado a mano. </p>
+                    <a href="#" class="btn btn-primary"> Comprar </a>
+                </div>
             </div>
-            <div class="mainproductos__producto">
-                <img src="../img/mate hexa.png" alt="" class="mainproductos__img">
-                <a href="" class="mainproductos__button">Comprar</a>
-            </div>
-            <div class="mainproductos__producto">
-                <img src="../img/mate imperial.png" alt="" class="mainproductos__img">
-                <a href="" class="mainproductos__button">Comprar</a>
-            </div>
-            <div class="mainproductos__producto">
-                <img src="../img/mate imperial.png" alt="" class="mainproductos__img">
-                <a href="" class="mainproductos__button">Comprar</a>
-            </div>
-            <div class="mainproductos__producto">
-                <img src="../img/mate imperial.png" alt="" class="mainproductos__img">
-                <a href="" class="mainproductos__button">Comprar</a>
+
+            <div class="card col-2" style="width: 16rem;">
+                <img src="../img/mate hexa.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> Mate Hexa </h2>
+                    <p class="card-text"> Mate hexagonal de madera, tallado a mano. </p>
+                    <a href="#" class="btn btn-primary"> Comprar </a>
+                </div>
             </div>
 
         </section>
 
     </main>
 
-    <section class="mainnosotros__addcontainer">
-        <div class="mainnosotros__addtexts">
-            <h3 class="mainnosotros__h3">¿Te gustaria vender nuestros mates?</h3>
-            <h5 class="mainnosotros__h5">Accedé a nuestro catalogo mayorista</h5>
+<!-- SECTION -->
+    <section class="beigecontainer">
+        <div class="beigetexts">
+            <h3 class="mainnosotros__h3">¿Te gustaría vender nuestros mates?</h3>
+            <h4 class="mainnosotros__h4">Accedé a nuestro catálogo mayorista</h4>
         </div>
         
         <div class="mainnosotros__addimg">
@@ -91,7 +115,8 @@
         <a class="mainnosotros__buttonmayorista" href="">Catalogo</a>
     </section>  
 
-    <!-- FOOTER -->
+
+<!-- FOOTER -->
     <footer class="footer">
         <p>Todos los derechos reservados <a href="https://franmaddonni.myportfolio.com/" target="blank">Francesco Maddonni</a></p>
     </footer>
@@ -99,7 +124,5 @@
 <!-- LINK JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-
-</body>
 </body>
 </html>

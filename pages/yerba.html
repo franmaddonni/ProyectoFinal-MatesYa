@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontrá tus mates preferidos, al mejor precio y mejor calidad. Armá tu kit de mate ideal.">
+    <meta name="keywords" content="Mate, Mates, Matesya, Tienda Online, Tienda de Mates, Yerba, Yerba Mate, Yerba Argentina, Yerba Uruguaya, Venta de Yerba, Venta de Mates, Mates para Ilustrar, Mates para Ilustraciones, Mates de Madera, Mates Imperiales, Mates Perita, Mates Hexagonales">
+    <title> MatesYa | Yerba </title>
+    <!-- ANIMACIONES -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- LINK BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Tipografias -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- HEADER -->
+    <Header class="header">
+        <ul class="header__ul">
+            <li class="header__li"><a href="../pages/productos.html">Productos</a></li>
+            <li class="header__li"><a href="../pages/nosotros.html">Nosotros</a></li>
+            <li class="header__li"><a href="../index.html"><img class="header__img  animate__animated animate__bounce" src="../img/ISOTIPO.png" alt=""></a></li>
+            <li class="header__li"><a href="../pages/yerba.html">Yerba</a> </li>
+            <li class="header__li"><a href="../pages/contacto.html">Contacto</a></li>
+        </ul>
+    </Header>
+
+<!-- MAIN -->
+    <main class="mainyerba">
+
+        <div class="mainyerba__title">
+            <h1 class="mainyerba__h1 animate__animated animate__headShake"> Yerba.</h1>
+        </div>
+
+        <section class="row">
+
+            <div class="card col-2" style="width: 16rem;">
+                <img src="../img/yerba1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> Yerba Orgánica Misiones </h2>
+                    <p class="card-text"> Suave y refrescante. Sabor clásico. </p>
+                    <a href="#" class="btn btn-primary"> Comprar </a>
+                </div>
+            </div>
+
+            <div class="card col-2" style="width: 16rem;">
+                <img src="../img/yerba2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> Yerba Orgánica Formosa </h2>
+                    <p class="card-text"> Fuerte y energética. Sabor amargo. </p>
+                    <a href="#" class="btn btn-primary"> Comprar </a>
+                </div>
+            </div>
+
+            <div class="card col-2" style="width: 16rem;">
+                <img src="../img/yerba3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> Yerba Orgánica Uruguaya </h2>
+                    <p class="card-text"> Suave y refrescante. Sabor cítrico. </p>
+                    <a href="#" class="btn btn-primary"> Comprar </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="carousel col-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/yerba1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/yerba2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/yerba3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+<!-- FOOTER -->
+    <footer class="footer">
+        <p>Todos los derechos reservados <a href="https://franmaddonni.myportfolio.com/" target="blank">Francesco Maddonni</a></p>
+    </footer>
+
+<!-- LINK JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
